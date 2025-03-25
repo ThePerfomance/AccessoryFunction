@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/expertName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Эксперт"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:paddingEnd="8dp" />
+
+    <TextView
+        android:id="@+id/lowValues"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Низкий"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/mediumValues"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Средний"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/highValues"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Высокий"
+        android:gravity="start" />
+</LinearLayout>
