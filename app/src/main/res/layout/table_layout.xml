@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:shrinkColumns="*">
+
+    <!-- Заголовок таблицы -->
+    <TableRow
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white">
+        <TextView
+            android:padding="8dp"
+            android:text="X" />
+        <TextView
+            android:padding="8dp"
+            android:text="X1" />
+        <TextView
+            android:padding="8dp"
+            android:text="X2" />
+        <TextView
+            android:padding="8dp"
+            android:text="X3" />
+        <TextView
+            android:padding="8dp"
+            android:text="X4" />
+        <TextView
+            android:padding="8dp"
+            android:text="X5" />
+    </TableRow>
+
+    <!-- Строка X1 -->
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="X1" />
+        <TextView
+            android:padding="8dp"
+            android:text="1" />
+        <TextView
+            android:padding="8dp"
+            android:text="6/4" />
+        <TextView
+            android:padding="8dp"
+            android:text="8/4" />
+        <TextView
+            android:padding="8dp"
+            android:text="6/4" />
+        <TextView
+            android:padding="8dp"
+            android:text="1" />
+    </TableRow>
+
+    <!-- Строка X2 -->
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="X2" />
+        <TextView
+            android:padding="8dp"
+            android:text="4/6" />
+        <TextView
+            android:padding="8dp"
+            android:text="1" />
+        <TextView
+            android:padding="8dp"
+            android:text="4/6" />
+        <TextView
+            android:padding="8dp"
+            android:text="1" />
+        <TextView
+            android:padding="8dp"
+            android:text="4/6" />
+    </TableRow>
+
+    <!-- Строка X3 -->
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="X3" />
+        <TextView
+            android:padding="8dp"
+            android:text="4/8" />
+        <TextView
+            android:padding="8dp"
+            android:text="6/8" />
+        <TextView
+            android:padding="8dp"
+            android:text="1" />
+        <TextView
+            android:padding="8dp"
+            android:text="6/8" />
+        <TextView
+            android:padding="8dp"
+            android:text="4/8" />
+    </TableRow>
+
+    <!-- Строка X4 -->
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="X4" />
+        <TextView
+            android:padding="8dp"
+            android:text="4/6" />
+        <TextView
+            android:padding="8dp"
+            android:text="1" />
+        <TextView
+            android:padding="8dp"
+            android:text="8/6" />
+        <TextView
+            android:padding="8dp"
+            android:text="1" />
+        <TextView
+            android:padding="8dp"
+            android:text="4/6" />
+    </TableRow>
+
+    <!-- Строка X5 -->
+    <TableRow>
+        <TextView
+            android:padding="8dp"
+            android:text="X5" />
+        <TextView
+            android:padding="8dp"
+            android:text="1" />
+        <TextView
+            android:padding="8dp"
+            android:text="6/4" />
+        <TextView
+            android:padding="8dp"
+            android:text="8/4" />
+        <TextView
+            android:padding="8dp"
+            android:text="6/4" />
+        <TextView
+            android:padding="8dp"
+            android:text="1" />
+    </TableRow>
+</TableLayout>
